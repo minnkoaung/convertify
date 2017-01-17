@@ -1,0 +1,29 @@
+/* Small devices (tablets, 768px and up) */
+
+@media (max-width: 600px) {
+    .navbar-default .navbar-toggle .icon-bar {
+        color: #fff !important;
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background: transparent;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #fff;
+        text-align: center;
+    }
+    .video-box-text {
+        display: none !important;
+        margin-top: -50px !important;
+    }
+    .fb-container {
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+    .fb-inner-container {
+        margin: 16px;
+    }
+    .fb-text-block {
+        padding: 0px !important;
+    }
+}
