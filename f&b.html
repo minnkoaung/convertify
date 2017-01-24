@@ -30,31 +30,30 @@
                 <nav class="navbar navbar-default" role="navigation">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
                     </div>
                     <div class="collapse navbar-collapse navbar-ex1-collapse">
                         <ul class="nav navbar-nav animated fadeInUp">
                             <li><a href="whats.html">What Converfity </a></li>
-                            <li><a href="#">Convertify for you</a></li>
+                            <li><a href="foryou.html">Convertify for you</a></li>
                             <!--<li><a href="#">Business</a></li>-->
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Business <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">F & B</a></li>
+                                    <li><a href="f&b.html">F & B</a></li>
                                     <li><a href="#">Construction</a></li>
                                     <li><a href="#">Automobile</a></li>
                                     <li><a href="#">Interior Design</a></li>
                                     <li><a href="#">Trading</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Project</a></li>
+                            <li><a href="projects.html">Project</a></li>
                             <li><a href="#">Blog</a></li>
-                            <li><a href="#">Newsfeed</a></li>
+                            <li><a href="https://www.innov8te.com.sg/contact/">Contact Us</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -84,8 +83,7 @@
                 <div class="container fb-inner-container">
                     <div class="col-md-6 fb-text-block" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="600">
                         <h3><span class="b-bottom">Reco</span>rding order</h3>
-                        <p class="paragraph">Once customer voice stopped speaking for 15 seconds, it will automatically prompt “ done “. Once the system prompt done, customer may manually touch on the screen “ done “ to summarize a finished conversation order. If not finished,
-                            customer can continue speaking ad system will automatically switch to recording mode.
+                        <p class="paragraph">Once customer voice stopped speaking for 15 seconds, it will automatically prompt “ done “. Once the system prompt done, customer may manually touch on the screen “ done “ to summarize a finished conversation order. If not finished, customer can continue speaking ad system will automatically switch to recording mode.
                         </p>
                     </div>
                     <div class="col-md-6 fb-img-block" data-aos="fade-zoom-in" data-aos-easing="ease-in-sine" data-aos-delay="240">
@@ -98,8 +96,7 @@
                     </div>
                     <div class="col-md-6 fb-text-block" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="600">
                         <h3><span class="b-bottom">Ther</span>e your order !</h3>
-                        <p class="paragraph">They can edit the order themselves on the screen and at the same time viewing the prices Adding other order also avail upon clicking on the “ menu “ button on the top left hand corner. You may also confirm your order if it’s good
-                            to go.
+                        <p class="paragraph">They can edit the order themselves on the screen and at the same time viewing the prices Adding other order also avail upon clicking on the “ menu “ button on the top left hand corner. You may also confirm your order if it’s good to go.
                             <br> <span class="greentext">Once the orders are right, customer will click confirm order .</span>
                         </p>
                     </div>
@@ -144,7 +141,7 @@
         <div class="container">
             <p class="text-muted text-center" style="padding: 20px 0;">&copy; copyright
                 <script>
-                    document.write(new Date().getFullYear())
+                document.write(new Date().getFullYear())
                 </script> Innov8te
             </p>
             <div class="text-center center-block">
@@ -167,20 +164,20 @@
             });
         </script>-->
     <script>
-        $('audio,video').mediaelementplayer({
-            //mode: 'shim',
-            success: function(player, node) {
-                $('#' + node.id + '-mode').html('mode: ' + player.pluginType);
-            }
-        });
+    $('audio,video').mediaelementplayer({
+        //mode: 'shim',
+        success: function(player, node) {
+            $('#' + node.id + '-mode').html('mode: ' + player.pluginType);
+        }
+    });
     </script>
     <!--<input type="button" id="stopall" value="Stop all">-->
     <script>
-        $('#stopall').click(function() {
-            $('video, audio').each(function() {
-                $(this)[0].player.pause();
-            });
+    $('#stopall').click(function() {
+        $('video, audio').each(function() {
+            $(this)[0].player.pause();
         });
+    });
     </script>
 </body>
 

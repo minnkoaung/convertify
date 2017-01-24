@@ -39,22 +39,21 @@
                     <div class="collapse navbar-collapse navbar-ex1-collapse">
                         <ul class="nav navbar-nav animated fadeInUp">
                             <li><a href="whats.html">What Converfity </a></li>
-                            <li><a href="#">Convertify for you</a></li>
+                            <li><a href="foryou.html">Convertify for you</a></li>
                             <!--<li><a href="#">Business</a></li>-->
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Business <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">F & B</a></li>
+                                    <li><a href="f&b.html">F & B</a></li>
                                     <li><a href="#">Construction</a></li>
                                     <li><a href="#">Automobile</a></li>
                                     <li><a href="#">Interior Design</a></li>
                                     <li><a href="#">Trading</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li class="active"><a href="#">Project</a></li>
+                            <li><a href="projects.html">Project</a></li>
                             <li><a href="#">Blog</a></li>
-                            <li><a href="#">Newsfeed</a></li>
+                            <li><a href="https://www.innov8te.com.sg/contact/">Contact Us</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -66,8 +65,7 @@
                 <div class="container fb-inner-container">
                     <div class="col-md-6 fb-text-block" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="600">
                         <h3><span class="b-bottom">Proj</span>ect Managements</h3>
-                        <p class="paragraph">Selecting Project and select the “ film a show “ template from the list. You can choose to make a call conversation to discuss about this project. If it's a call, you may also select contacts from your phone list. In this case
-                            it's a face meeting discussion, you may proceed with recording button.</p>
+                        <p class="paragraph">Selecting Project and select the “ film a show “ template from the list. You can choose to make a call conversation to discuss about this project. If it's a call, you may also select contacts from your phone list. In this case it's a face meeting discussion, you may proceed with recording button.</p>
                     </div>
                     <div class="col-md-6 fb-img-block" data-aos="fade-zoom-in" data-aos-easing="linear" data-aos-delay="240">
                         <img src="images/projects/project-img-01.png" alt="">
@@ -99,8 +97,7 @@
                     </div>
                     <div class="col-md-6 fb-text-block" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="600">
                         <h3><span class="b-bottom">Clas</span>sic tasklist</h3>
-                        <p class="paragraph">Shooting a variety show. Record meeting details of who involving in the event. Who to do what, and what to do within the deadline. Status and latest update of task and department. This will reflect for every users who is involved
-                            in the meeting.
+                        <p class="paragraph">Shooting a variety show. Record meeting details of who involving in the event. Who to do what, and what to do within the deadline. Status and latest update of task and department. This will reflect for every users who is involved in the meeting.
                         </p>
                     </div>
                 </div>
@@ -108,7 +105,6 @@
                     <div class="col-md-6 fb-text-block" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="600">
                         <h3><span class="b-bottom">Kanb</span>an view</h3>
                         <p class="paragraph">Record meeting details of who involving in the event. Who to do what, and what to do within the deadline. Status and latest update of task and department. This will reflect for every users who is involved in the meeting.
-
                         </p>
                     </div>
                     <div class="col-md-6 fb-img-block" data-aos="fade-zoom-in" data-aos-easing="ease-in-sine" data-aos-delay="240">
@@ -136,7 +132,7 @@
         <div class="container">
             <p class="text-muted text-center" style="padding: 20px 0;">&copy; copyright
                 <script>
-                    document.write(new Date().getFullYear())
+                document.write(new Date().getFullYear())
                 </script> Innov8te
             </p>
             <div class="text-center center-block">
@@ -159,20 +155,20 @@
         });
     </script>-->
     <script>
-        $('audio,video').mediaelementplayer({
-            //mode: 'shim',
-            success: function(player, node) {
-                $('#' + node.id + '-mode').html('mode: ' + player.pluginType);
-            }
-        });
+    $('audio,video').mediaelementplayer({
+        //mode: 'shim',
+        success: function(player, node) {
+            $('#' + node.id + '-mode').html('mode: ' + player.pluginType);
+        }
+    });
     </script>
     <!--<input type="button" id="stopall" value="Stop all">-->
     <script>
-        $('#stopall').click(function() {
-            $('video, audio').each(function() {
-                $(this)[0].player.pause();
-            });
+    $('#stopall').click(function() {
+        $('video, audio').each(function() {
+            $(this)[0].player.pause();
         });
+    });
     </script>
 </body>
 

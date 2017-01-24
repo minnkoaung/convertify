@@ -1,4 +1,3 @@
-
 .con-main-nav {
     width: 70.27%;
     height: 50px;
@@ -110,3 +109,45 @@
 }
 
 
+/* (1920x1080) Full HD Display */
+
+@media screen and (max-width: 1920px) {
+    .con-main-nav {
+        width: 50%;
+        height: 50px;
+        margin: 0px auto;
+    }
+}
+
+
+/* (1366x768) WXGA Display */
+
+@media screen and (max-width: 1366px) {
+    .con-main-nav {
+        width: 70.27%;
+        height: 50px;
+        margin: 0px auto;
+    }
+    .con-main-nav ul {
+        height: 50px;
+        list-style: none !important;
+    }
+    .con-main-nav ul li {
+        height: 50px;
+        text-align: center;
+        float: left;
+    }
+    .con-main-nav ul li a {
+        display: block;
+        color: #fff;
+        height: 50px;
+        line-height: 50px;
+        text-decoration: none;
+        padding: 0 20px 0 20px;
+    }
+    .con-main-nav ul #myactive a {
+        background: #f4f4f4;
+        border-radius: 10px 10px 0 0;
+        color: #000 !important;
+    }
+}

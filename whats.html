@@ -39,7 +39,7 @@
                     <div class="collapse navbar-collapse navbar-ex1-collapse">
                         <ul class="nav navbar-nav animated fadeInUp">
                             <li><a href="whats.html">What Converfity </a></li>
-                            <li><a href="#">Convertify for you</a></li>
+                            <li><a href="foryou.html">Convertify for you</a></li>
                             <!--<li><a href="#">Business</a></li>-->
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Business <b class="caret"></b></a>
@@ -51,10 +51,9 @@
                                     <li><a href="#">Trading</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Project</a></li>
+                            <li><a href="projects.html">Project</a></li>
                             <li><a href="#">Blog</a></li>
-                            <li><a href="#">Newsfeed</a></li>
+                            <li><a href="https://www.innov8te.com.sg/contact/">Contact Us</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -80,12 +79,14 @@
                     </div>
                     <div class="col-md-6 fb-text-block" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="600" style="margin-top:-20px;">
                         <h3><span class="b-bottom">HOW</span>REGULATE</h3>
-                        <p class="paragraph">A pre set template format of documents that will be use in your lifestyle was defined. Eg. service contract for engagement of contractor, Tution teacher agreement template, freelance music teacher agreement. <br><br> In every parameters
-                            of the selected inputs of the template that will be generated into the format of your document. <br> <br>Voice recognition during the conversation was activated during the conversation recording when “End and deal “ is tapped.
+                        <p class="paragraph">A pre set template format of documents that will be use in your lifestyle was defined. Eg. service contract for engagement of contractor, Tution teacher agreement template, freelance music teacher agreement.
+                            <br>
+                            <br> In every parameters of the selected inputs of the template that will be generated into the format of your document.
+                            <br>
+                            <br>Voice recognition during the conversation was activated during the conversation recording when “End and deal “ is tapped.
                         </p>
                     </div>
                 </div>
-
                 <div class="container fb-inner-container">
                     <div class="col-md-6 fb-img-block" data-aos="fade-zoom-in" data-aos-easing="ease-in-sine" data-aos-delay="240">
                         <img class="img-responsive" src="images/whats/what-pic-03.png" alt="">
@@ -96,7 +97,6 @@
                         </p>
                     </div>
                 </div>
-
                 <div class="container fb-inner-container" style="margin-top:50px;">
                     <div class="col-md-6 fb-img-block" data-aos="fade-zoom-in" data-aos-easing="ease-in-sine" data-aos-delay="240">
                         <img class="img-responsive" src="images/whats/what-pic-04.png" alt="">
@@ -108,9 +108,6 @@
                         </p>
                     </div>
                 </div>
-
-
-
             </div>
             <!-- f&b-container end -->
         </div>
@@ -121,7 +118,7 @@
         <div class="container">
             <p class="text-muted text-center" style="padding: 20px 0;">&copy; copyright
                 <script>
-                    document.write(new Date().getFullYear())
+                document.write(new Date().getFullYear())
                 </script> Innov8te
             </p>
             <div class="text-center center-block">
@@ -144,20 +141,20 @@
         });
     </script>-->
     <script>
-        $('audio,video').mediaelementplayer({
-            //mode: 'shim',
-            success: function(player, node) {
-                $('#' + node.id + '-mode').html('mode: ' + player.pluginType);
-            }
-        });
+    $('audio,video').mediaelementplayer({
+        //mode: 'shim',
+        success: function(player, node) {
+            $('#' + node.id + '-mode').html('mode: ' + player.pluginType);
+        }
+    });
     </script>
     <!--<input type="button" id="stopall" value="Stop all">-->
     <script>
-        $('#stopall').click(function() {
-            $('video, audio').each(function() {
-                $(this)[0].player.pause();
-            });
+    $('#stopall').click(function() {
+        $('video, audio').each(function() {
+            $(this)[0].player.pause();
         });
+    });
     </script>
 </body>
 
