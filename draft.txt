@@ -90,7 +90,7 @@
                     </div>
                     <div class="collapse navbar-collapse navbar-ex1-collapse">
                         <ul class="nav navbar-nav animated fadeInUp">
-                            <li><a href="whats.html">What Converfity </a></li>
+                            <li><a href="whats.html">About</a></li>
                             <li><a href="#">Convertify for you</a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Business <b class="caret"></b></a>
