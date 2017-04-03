@@ -25,9 +25,12 @@ h6 {
 
 .paragraph {
     margin: 25px 0;
-    line-height: 2em;
+    line-height: 1.8em;
 }
-
+.download-center{
+	text-align:center;
+	margin-bottom:45px;
+}
 .greentext {
     color: #1e9c5c;
 }
@@ -188,4 +191,8 @@ ul.features {
 
 .grayrow {
     background: #e3e2e2;
+}
+
+.text-muted{
+    font-size: 16px !important;
 }
