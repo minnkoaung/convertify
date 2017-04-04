@@ -7,12 +7,15 @@ body {
 body {
     background: #f4f4f4;
 }
-p{
-     font-size: 1.5em;
+
+p {
+    font-size: 16px;
 }
-h3{
-    font-size: 1.85em;
+
+h3 {
+    font-size: 25px;
 }
+
 h1,
 h2,
 h3,
@@ -27,10 +30,12 @@ h6 {
     margin: 25px 0;
     line-height: 1.8em;
 }
-.download-center{
-	text-align:center;
-	margin-bottom:45px;
+
+.download-center {
+    text-align: center;
+    margin-bottom: 45px;
 }
+
 .greentext {
     color: #1e9c5c;
 }
@@ -174,7 +179,7 @@ ul.features {
 }
 
 .fb-text-block {
-    padding: 120px 0;
+    padding: 120px 20px;
 }
 
 
@@ -193,6 +198,6 @@ ul.features {
     background: #e3e2e2;
 }
 
-.text-muted{
+.text-muted {
     font-size: 16px !important;
 }
