@@ -18,7 +18,7 @@ document.write(
                                " <ul class='dropdown-menu'>"+
                                     "<li><a href='f&b.html'>F & B</a></li>"+
                                    " <li><a href='projects.html'>Project Management</a></li>"+
-                                    "<li><a href='projects.html'>Business Contract</a></li>"+
+                                    "<li><a href='business_contract.html'>Business Contract</a></li>"+
                                 "</ul>"+
                            " </li>"+
                             "<li><a href='#'>Blog</a></li>"+
